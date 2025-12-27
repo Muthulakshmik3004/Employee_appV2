@@ -1,0 +1,49 @@
+# Python
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node / React / Expo
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+*.tsbuildinfo
+*.js.map
+*.d.ts
+.expo/
+.expo-shared/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
